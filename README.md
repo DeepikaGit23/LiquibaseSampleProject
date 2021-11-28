@@ -1,4 +1,4 @@
-/*****REUSED THE CODE OF DICKSON THE DEVELOPER***/
+/*****REUSED THE CODE OF DICKSON THE DEVELOPER FOR LIQUIBASE***/
 
 # LiquibaseSampleProject
 Sample project for Database management and schema changes using liquibase.
