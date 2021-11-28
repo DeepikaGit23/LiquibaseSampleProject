@@ -1,5 +1,3 @@
-/*****REUSED THE CODE OF DICKSON THE DEVELOPER FOR LIQUIBASE***/
-
 # LiquibaseSampleProject
 Sample project for Database management and schema changes using liquibase.
 1.In application.properties set: 
