@@ -1,3 +1,5 @@
+/*****REUSED THE CODE OF DICKSON THE DEVELOPER***/
+
 # LiquibaseSampleProject
 Sample project for Database management and schema changes using liquibase.
 1.In application.properties set: 
@@ -23,7 +25,7 @@ and create changelog-master
                 </configuration>
             </plugin>
 
-#Swagger
+# Swagger
 Important points to remember
 1. Annotation
     @EnableSwagger2 from import springfox.documentation.swagger2.annotations.EnableSwagger2;
