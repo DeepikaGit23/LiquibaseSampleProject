@@ -1,0 +1,80 @@
+package io.dickson.liquibasesample;
+
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+@Table(name = "students")
+public class Student {
+
+    public Student(int id, String name, String description, String address, String level) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.address = address;
+		this.level = level;
+	}
+
+	@Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="id")
+    private int id;
+
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "height")
+    private String description;
+
+    @Column(name = "address")
+    private String address;
+
+    @Column(name = "level")
+    private String level;
+
+    public Student() {
+        // For persistence
+    }
+
+    public Student(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
+}
